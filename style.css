@@ -4,14 +4,14 @@
     box-sizing: border-box;
 }
 .header-container {
-    background-color: lightgoldenrodyellow;
+    background-color: lightblue;
     color: black;
     padding: 20px 0;
     display: flex;
     justify-content: center;
 }
 .header {
-    background-color: lightskyblue;
+    background-color: white;
     display: flex;
     height: 85px;
     width: 900px;
@@ -22,16 +22,30 @@
 }
 .date {
     display: flex;
-    justify-content: flex-start
+    justify-content: flex-start;
+    width: 300px;
+    flex: initial;
+}
+.logo {
+    align-items: stretch;
+}
+.logo img {
+    max-height: 85px;
 }
 .social {
     display: flex;
     justify-content: flex-end;
+    width: 300px;
+    flex: initial;
+}
+.social img {
+    max-height: 65px;
 }
 .gallary-container {
     display: flex;
     justify-content: center;
-    background-color: lightgoldenrodyellow;
+    background-color: lightblue;
+    padding-bottom: 30px;
 }
 .gallary {
     width: 900px;
@@ -48,7 +62,24 @@
     display: flex;
     align-items: center;
 }
-img {
+.gallary img {
     max-width: 225px;
     max-height: 175px;
+}
+.footer {
+    color: black;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+    align-content: center;
+    justify-content: center;
+}
+.footer p {
+    display: flex;
+    justify-content: center;
+    height: 35px;
+    width: 900px;
+    background-color: white;
+    align-items: center;
 }
